@@ -7,7 +7,7 @@ int increment(int &num){
 int change(int &num){
     return -num;
 }
-int main(void){
+void main(void){
     int num = 100;
     int &ref = num;
     
